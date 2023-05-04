@@ -27,7 +27,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-         <h2>TodoList Application</h2>
+         <h2>TodoList Application using redux</h2>
          <form onSubmit={handleSubmit}>
           <input placeholder='Enter todo' className ="input-style" onChange={(e) => setTodo(e.target.value)}/>
           <button type='submit' className='go-btn'>Go</button>
